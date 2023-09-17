@@ -798,3 +798,7 @@ html {
   --tw-text-opacity: 1;
   color: rgb(228 228 231 / var(--tw-text-opacity));
 }
+
+.group:hover .group-hover\:block{
+  display: block;
+}
