@@ -1,0 +1,137 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;500;600;700;800;900&display=swap");
+
+html {
+  font-family: "Roboto Slab", serif;
+  letter-spacing: 0.5px;
+  font-size: 12px;
+  background: #fff;
+  color: #8b8b8b;
+  font-size: 16px;
+  line-height: 1.5rem;
+}
+.header {
+  margin: 0 auto;
+}
+.main__title {
+  color: #424242;
+  text-align: center;
+  font-weight: 900;
+  font-size: 3.5rem;
+}
+
+.card__container {
+  margin: 0 auto;
+  width: 23%;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+}
+.item {
+  margin: 1rem 0;
+}
+.item1 {
+  position: relative;
+  border-radius: 4px;
+  background: #424242;
+  color: #fff;
+  margin: 1rem 0;
+  text-align: center;
+}
+
+.item1:after {
+  position: absolute;
+  bottom: -10px;
+  right: 10%;
+  margin-left: -10px;
+  content: "";
+  display: block;
+  border-left: 8px solid transparent;
+  border-right: 8px solid transparent;
+  border-top: 10px solid #424242;
+}
+
+.item2 {
+  border: 1px solid #dedede;
+}
+.item2__bar {
+  border: 2px solid #dedede;
+  background: #fafafa;
+  height: 1rem;
+}
+.item2_bar_progress {
+  background: #ef5f3c;
+  height: 100%;
+  width: 80%;
+  margin: 0;
+  padding: 0;
+}
+
+.item2__container {
+  padding: 1rem;
+}
+
+.item2__orange {
+  color: #ef5f3c;
+  font-weight: bold;
+}
+.btn__container {
+  display: flex;
+  gap: 0.5rem;
+  flex-direction: row;
+}
+.item2__input {
+  width: 40%;
+  padding: 1rem 0;
+  font-size: 20px;
+  font-weight: bolder;
+  border: 0;
+}
+
+.currencyinput {
+  border-radius: 4px;
+  font-size: 18px;
+  border: 1px solid #dedede;
+}
+.currencyinput:before {
+  content: "$";
+  margin-left: 0.5rem;
+  font-size: 20px;
+  font-weight: bolder;
+}
+
+.item2__btn {
+  font-size: 18px;
+  font-weight: bolder;
+  color: #fff;
+  border: 0;
+  background: #1cbc2c;
+  width: 80%;
+  cursor: pointer;
+}
+
+.btn {
+  border-radius: 4px;
+}
+.button {
+  border: 1px solid #dedede;
+  width: 50%;
+  margin-top: 1rem;
+  font-weight: bolder;
+  color: #828282;
+  background: #fafafa;
+  padding: 1rem;
+  cursor: pointer;
+}
+
+.container__btn {
+  display: flex;
+  gap: 2rem;
+  flex-direction: row;
+}
+
+.item3_blue {
+  font-style: italic;
+  color: #2aa5d6;
+}
