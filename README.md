@@ -54,6 +54,6 @@ License
 This project is licensed under the MIT License. See the LICENSE.md file for details.
 
 
-git clone https://github.com/Bunix25/Music-festival-website.git
+
 
 
